@@ -8,9 +8,9 @@ from astropy.time import Time
 import uuid
 
 
-from src.utils.integration import find_flights_intersecting
-from src.utils.fov import check_flights_in_fov
-from src.utils.datatypes import ProcessedFlightInfo
+from api.utils.integration import find_flights_intersecting
+from api.utils.fov import check_flights_in_fov
+from api.utils.datatypes import ProcessedFlightInfo
 
 
 def test_integration():

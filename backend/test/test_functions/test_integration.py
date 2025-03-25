@@ -4,8 +4,8 @@ from astropy.time import Time
 from collections import deque
 
 # Import functions from your script
-from src.utils.integration import find_flights_intersecting
-from src.utils.datatypes import flightInfo  # Assuming this exists
+from api.utils.integration import find_flights_intersecting
+from api.utils.datatypes import flightInfo  # Assuming this exists
 
 def generate_mock_flights():
     """

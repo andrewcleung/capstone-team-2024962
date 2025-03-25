@@ -1,11 +1,11 @@
 
-from src.utils.datatypes import ProcessedFlightInfo, HMS
+from api.utils.datatypes import ProcessedFlightInfo, HMS
 from astropy.time import Time, TimeDelta
-import src.utils.dawson_b3 as dawson_b3
-import src.utils.dawson_c as dawson_c
-import src.utils.dawson_d as dawson_d
-import src.utils.fov as fov
-from src.utils.constants import EARTH_RADIUS_METER
+import api.utils.dawson_b3 as dawson_b3
+import api.utils.dawson_c as dawson_c
+import api.utils.dawson_d as dawson_d
+import api.utils.fov as fov
+from api.utils.constants import EARTH_RADIUS_METER
 
 from datetime import datetime
 # todo: create data class

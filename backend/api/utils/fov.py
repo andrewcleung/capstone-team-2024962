@@ -1,9 +1,9 @@
 import math
-import src.utils.flight_api as fa
-import src.utils.coord2 as co
-from src.utils.datatypes import ProcessedFlightInfo
+import api.utils.flight_api as fa
+import api.utils.coord2 as co
+from api.utils.datatypes import ProcessedFlightInfo
 import uuid
-from src.utils.constants import EARTH_RADIUS_METER, AIRPLANE_MAX_ALT
+from api.utils.constants import EARTH_RADIUS_METER, AIRPLANE_MAX_ALT
 
 def calculate_fov_size(focal_length, camera_sensor_size, barlow_reducer_factor):
     # calculate the FOV size

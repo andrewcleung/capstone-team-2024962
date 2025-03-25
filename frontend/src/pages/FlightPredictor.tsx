@@ -55,7 +55,7 @@ function FlightPredictor() {
     try {
       console.log("Fetching flight data...", formData);
       const response = await axios.post(
-        "http://127.0.0.1:5000/api/flight-prediction",
+        "https://capstone-team-2024962.vercel.app/api/flight-prediction",
         {
           ...formData,
           simulatedFlights,

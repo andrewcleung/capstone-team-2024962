@@ -1,6 +1,6 @@
 import pytest
-from src.utils import constants
-from src.utils import dawson_c
+from api.utils import constants
+from api.utils import dawson_c
 import math
 
 
